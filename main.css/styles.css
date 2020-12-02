@@ -3,13 +3,14 @@
   --secondary-font: "Raleway", sans-serif;
   --accent-color: #2196f3;
   --main-text-color: #212121;
-  --secondary-text-color: #ffffff;
+  --secondary-text-color: #000000;
   --link-color: #757575;
-  --white-color: ;
+  --white-color: #ffffff;
 }
 
 body {
   font-family: var(--main-font);
+  margin: 0px;
 }
 
 /*======SPECIFICATIONS======*/
@@ -148,10 +149,14 @@ img {
 .header-mail:hover,
 .header-mail:focus,
 .header-tel:hover,
-.header-tel:focus,
-.portfolio-button-list-item:hover,
-.portfolio-button-list-item:focus {
+.header-tel:focus {
   color: var(--accent-color);
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background-color: #2196f3;
+  color: var(--white-color);
 }
 
 /*======END HEADER======*/
